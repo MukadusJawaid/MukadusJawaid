@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Mukadus Jawaid · Software Engineer" width="100%"/>
+  <img src="header.svg" alt="Mukadus Jawaid · Software Engineer" width="100%"/>
 </p>
 
 <p align="center">
