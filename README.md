@@ -1,4 +1,6 @@
-<h1 align="center">Hi, I'm Mukadus 👋</h1>
+<p align="center">
+  <img src="assets/header.svg" alt="Mukadus Jawaid · Software Engineer" width="100%"/>
+</p>
 
 <p align="center">
   <b>Software Engineer · Frontend Engineer</b><br/>
@@ -67,13 +69,6 @@
 | **Caropedia · Notes Keeper · Melad Zone · Tutor Elli** | Live web projects, see my portfolio for demos | React, Next.js |
 
 👉 See everything live at **[my portfolio](https://mukadusjawaidsportfolio.web.app/)**.
-
-## 📊 GitHub stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MukadusJawaid&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MukadusJawaid&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
-</p>
 
 ## 🤝 Let's connect
 
