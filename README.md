@@ -60,6 +60,7 @@
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| **[Wattwise](https://wtq26-mukadus-jawaid.vercel.app/)** | AI tool that decodes Pakistani electricity bills (K-Electric, LESCO, IESCO): extracts every charge and tax, then answers questions using only what's on the bill. Built for Women Tech Quest 2026 | AI, Next.js, Vercel |
 | **Capra Vision** | AI-powered mobile app that classifies goat breeds (my final year project, top innovation scores) | React Native, Node.js, AI |
 | **[DreamEscape](https://github.com/MukadusJawaid/DreamEscape)** | Dream-themed web project | HTML, CSS |
 | **[Emojipedia](https://github.com/MukadusJawaid/Emojipedia)** | Emoji directory with descriptions | React, JavaScript |
