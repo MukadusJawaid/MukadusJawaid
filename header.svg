@@ -1,0 +1,389 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="t d">
+  <title id="t">Mukadus Jawaid</title>
+  <desc id="d">Animated banner: a girl coder in headphones types on her laptop, glances toward the intro, then goes back to work. Hi, I'm Mukadus Jawaid, a Software Engineer.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="0.55" stop-color="#17124d"/>
+      <stop offset="1" stop-color="#0d3556"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8be9fd"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bodyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2b38"/>
+      <stop offset="1" stop-color="#111118"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbdcc0"/>
+      <stop offset="1" stop-color="#eaaa84"/>
+    </linearGradient>
+    <linearGradient id="hairG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25252d"/>
+      <stop offset="1" stop-color="#07070a"/>
+    </linearGradient>
+    <radialGradient id="bunG" cx="0.36" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#40404d"/>
+      <stop offset="0.45" stop-color="#17171e"/>
+      <stop offset="1" stop-color="#07070a"/>
+    </radialGradient>
+    <linearGradient id="lidG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2f7"/>
+      <stop offset="1" stop-color="#9aa8bd"/>
+    </linearGradient>
+    <linearGradient id="deskG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4d7a"/>
+      <stop offset="1" stop-color="#222e52"/>
+    </linearGradient>
+    <linearGradient id="chairG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3a60"/>
+      <stop offset="1" stop-color="#18213a"/>
+    </linearGradient>
+
+    <clipPath id="c0"><rect class="clip k0" x="440" y="246" height="28" width="0"/></clipPath>
+    <clipPath id="c1"><rect class="clip k1" x="440" y="246" height="28" width="0"/></clipPath>
+    <clipPath id="c2"><rect class="clip k2" x="440" y="246" height="28" width="0"/></clipPath>
+    <clipPath id="c3"><rect class="clip k3" x="440" y="246" height="28" width="0"/></clipPath>
+
+    <clipPath id="faceClip"><path d="M156,150 C156,122 172,112 190,112 C208,112 224,122 224,150 C224,176 208,197 190,199 C172,197 156,176 156,150 Z"/></clipPath>
+    <clipPath id="eyeL"><ellipse cx="177" cy="154" rx="6.8" ry="7.6"/></clipPath>
+    <clipPath id="eyeR"><ellipse cx="203" cy="154" rx="6.8" ry="7.6"/></clipPath>
+
+    <!-- sleeves: sweater fabric, highlight, elbow creases, ribbed cuff -->
+    <g id="armL">
+      <path d="M124,291 C126,302 134,307 146,307" fill="none" stroke="#1a1a23" stroke-width="19" stroke-linecap="round"/>
+      <path d="M127,296 C130,302 136,304 142,304" fill="none" stroke="#565c6c" stroke-width="1.6" stroke-opacity=".4" stroke-linecap="round"/>
+      <g transform="rotate(8 134 306)">
+        <path d="M116,299 C124,297 136,298 146,300 L146,314 C136,316 124,315 116,313 Z" fill="url(#skinG)"/>
+        <path d="M133,300 L133,314 M139,299 L139,315" stroke="#c98f6c" stroke-width=".9" stroke-opacity=".7" stroke-linecap="round"/>
+      </g>
+      <path d="M122,297 C120,302 120,309 122,315" fill="none" stroke="#14141c" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g id="armR">
+      <path d="M256,291 C254,302 246,307 234,307" fill="none" stroke="#1a1a23" stroke-width="19" stroke-linecap="round"/>
+      <path d="M253,296 C250,302 244,304 238,304" fill="none" stroke="#565c6c" stroke-width="1.6" stroke-opacity=".4" stroke-linecap="round"/>
+      <g transform="rotate(-8 246 306)">
+        <path d="M264,299 C256,297 244,298 234,300 L234,314 C244,316 256,315 264,313 Z" fill="url(#skinG)"/>
+        <path d="M247,300 L247,314 M241,299 L241,315" stroke="#c98f6c" stroke-width=".9" stroke-opacity=".7" stroke-linecap="round"/>
+      </g>
+      <path d="M258,297 C260,302 260,309 258,315" fill="none" stroke="#14141c" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <!-- a braid hanging over her shoulder (the right one is a mirror of this) -->
+    <g id="braid">
+      <g fill="url(#hairG)" stroke="#3a3a46" stroke-width="1">
+        <ellipse cx="148" cy="182" rx="8.5" ry="10" transform="rotate(-25 148 182)"/>
+        <ellipse cx="153" cy="194" rx="8.5" ry="10" transform="rotate(25 153 194)"/>
+        <ellipse cx="148" cy="206" rx="8.5" ry="10" transform="rotate(-25 148 206)"/>
+        <ellipse cx="153" cy="218" rx="8.5" ry="10" transform="rotate(25 153 218)"/>
+        <ellipse cx="148" cy="230" rx="8.5" ry="10" transform="rotate(-25 148 230)"/>
+        <ellipse cx="153" cy="242" rx="8.5" ry="10" transform="rotate(25 153 242)"/>
+      </g>
+      <path d="M149,178 C153,198 147,222 152,244" stroke="#5c5c6a" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".4"/>
+      <ellipse cx="151" cy="260" rx="5.5" ry="7" fill="url(#hairG)" stroke="#3a3a46" stroke-width="1"/>
+      <rect x="142" y="248" width="18" height="7" rx="3.5" fill="#3f3f46" stroke="#6b7280" stroke-width=".8"/>
+    </g>
+    <g id="note">
+      <ellipse cx="0" cy="0" rx="4.2" ry="3.2" transform="rotate(-22)" stroke="none"/>
+      <path d="M3.6,-1.4 V-15 q5.5,0.8 6.2,7" fill="none" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <path id="spark" d="M0,-7 L1.8,-1.8 L7,0 L1.8,1.8 L0,7 L-1.8,1.8 L-7,0 L-1.8,-1.8 Z"/>
+  </defs>
+
+  <style>
+    /* ---------- intro panel ---------- */
+    .hello { font: 600 22px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8be9fd; letter-spacing: 1px;
+             animation: rise 1s ease-out both; }
+    .name  { font: 800 52px 'Segoe UI', Helvetica, Arial, sans-serif; fill: url(#name);
+             animation: rise 1.1s .15s ease-out both; }
+    .sub   { font: 500 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #a5b4fc; letter-spacing: 1.5px;
+             animation: rise 1.1s .3s ease-out both; }
+    .type  { font: 500 18px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #e2e8f0; }
+    .prompt{ font: 700 18px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #22d3ee; }
+    .card  { animation: rise 1.1s .6s ease-out both; }
+    .clip  { animation-duration: 12s; animation-iteration-count: infinite; animation-timing-function: steps(28, end); }
+    .k0 { animation-name: t0; } .k1 { animation-name: t1; } .k2 { animation-name: t2; } .k3 { animation-name: t3; }
+    @keyframes t0 { 0%{width:0} 8%{width:385px} 21%{width:385px} 24%,100%{width:0} }
+    @keyframes t1 { 0%,25%{width:0} 33%{width:295px} 46%{width:295px} 49%,100%{width:0} }
+    @keyframes t2 { 0%,50%{width:0} 58%{width:285px} 71%{width:285px} 74%,100%{width:0} }
+    @keyframes t3 { 0%,75%{width:0} 83%{width:320px} 96%{width:320px} 99%,100%{width:0} }
+
+    /* intro lights up while she is reading it */
+    .hl { opacity: 0; transform-origin: 402px 194px; animation: hlk 10s ease-in-out infinite; }
+    @keyframes hlk { 0%,38%{opacity:0; transform:scaleX(0)} 46%,60%{opacity:1; transform:scaleX(1)} 68%,100%{opacity:0; transform:scaleX(1)} }
+    .cardhl { opacity: 0; animation: cardk 10s ease-in-out infinite; }
+    @keyframes cardk { 0%,38%{opacity:0} 46%,60%{opacity:.9} 68%,100%{opacity:0} }
+
+    /* ---------- background ---------- */
+    .wave1 { animation: drift 9s linear infinite; }
+    .wave2 { animation: drift 14s linear infinite reverse; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-450px); } }
+    .dot { animation: float 5s ease-in-out infinite alternate; }
+    .d2 { animation-duration: 7s; animation-delay: -2s; }
+    .d3 { animation-duration: 6s; animation-delay: -4s; }
+    @keyframes float { from { transform: translateY(0); opacity: .25; } to { transform: translateY(-16px); opacity: .7; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .tw { animation: twinkle 3s ease-in-out infinite alternate; }
+    .tw2 { animation-duration: 4.2s; animation-delay: -1.5s; }
+    .tw3 { animation-duration: 3.6s; animation-delay: -2.4s; }
+    @keyframes twinkle { from { opacity: .15; transform: scale(.7); } to { opacity: .95; transform: scale(1.1); } }
+
+    /* ---------- the coder: 10s loop ----------
+       0-30%   head down, typing
+       30-38%  turns toward the intro on her left
+       38-62%  reads it, small smile
+       62-72%  turns back
+       72-100% typing again                       */
+    .braid1 { transform-origin: 172px 192px; animation: braidsway 4s ease-in-out infinite alternate; }
+    @keyframes braidsway { from { transform: rotate(-1.2deg); } to { transform: rotate(1.4deg); } }
+    .breathe { animation: breath 4s ease-in-out infinite alternate; }
+    @keyframes breath { from { transform: translateY(0px); } to { transform: translateY(1.6px); } }
+
+    .head { transform: translate(0px,4px) rotate(0deg); transform-origin: 190px 205px; animation: headmove 10s ease-in-out infinite; }
+    @keyframes headmove {
+      0%,30%   { transform: translate(0px,4px) rotate(0deg); }
+      38%,62%  { transform: translate(0px,2px) rotate(3deg); }
+      72%,100% { transform: translate(0px,4px) rotate(0deg); }
+    }
+    .facegrp { transform: translate(0px,6px) scale(1,1); transform-origin: 190px 156px; animation: facemove 10s ease-in-out infinite; }
+    @keyframes facemove {
+      0%,30%   { transform: translate(0px,6px) scale(1,1); }
+      38%,62%  { transform: translate(6px,1px) scale(.96,1); }
+      72%,100% { transform: translate(0px,6px) scale(1,1); }
+    }
+    .bangs { transform: translate(0px,5px); animation: bangmove 10s ease-in-out infinite; }
+    @keyframes bangmove {
+      0%,30%   { transform: translate(0px,5px); }
+      38%,62%  { transform: translate(4px,-1px); }
+      72%,100% { transform: translate(0px,5px); }
+    }
+    .pupil { transform: translate(0px,3px); animation: pupilmove 10s ease-in-out infinite; }
+    @keyframes pupilmove {
+      0%,30%   { transform: translate(0px,5px); }
+      38%,62%  { transform: translate(3px,0.2px); }
+      72%,100% { transform: translate(0px,5px); }
+    }
+    .blink { transform-box: fill-box; transform-origin: center; animation: blinkk 4.6s infinite; }
+    @keyframes blinkk { 0%,93%,100% { transform: scaleY(1); } 96% { transform: scaleY(.08); } }
+    .glow { opacity: 0; animation: glowk 10s ease-in-out infinite; }
+    @keyframes glowk { 0%,100%{opacity:0} }
+    .mn { opacity: 1; animation: mnk 10s infinite; }
+    .ms { opacity: 0; animation: msk 10s infinite; }
+    @keyframes mnk { 0%,36%{opacity:1} 39%,61%{opacity:0} 64%,100%{opacity:1} }
+    @keyframes msk { 0%,36%{opacity:0} 39%,61%{opacity:1} 64%,100%{opacity:0} }
+
+    .armsWork  { opacity: 1; animation: awk 10s infinite; }
+    .armsStill { opacity: 1; }
+    @keyframes awk { 0%,31%{opacity:1} 32%,70%{opacity:0} 71%,100%{opacity:1} }
+    @keyframes ask { 0%,31%{opacity:0} 32%,70%{opacity:1} 71%,100%{opacity:0} }
+    .bobL { animation: bob .45s ease-in-out infinite alternate; }
+    .bobR { animation: bob .45s ease-in-out -.22s infinite alternate; }
+    @keyframes bob { from { transform: translateY(0px); } to { transform: translateY(2.4px); } }
+
+    .music { animation: musick 1.1s ease-in-out infinite alternate; }
+    @keyframes musick { from { opacity: .45; } to { opacity: 1; } }
+    .pulse { animation: pulsek 2s ease-in-out infinite alternate; }
+    @keyframes pulsek { from { opacity: .12; } to { opacity: .5; } }
+
+    .nt { opacity: 0; animation: noteup 3.6s ease-out infinite; }
+    .nt2 { animation-name: noteup2; animation-delay: -1.8s; }
+    @keyframes noteup  { 0%{opacity:0; transform:translate(0px,0px) rotate(0deg)} 15%{opacity:.95} 100%{opacity:0; transform:translate(-16px,-54px) rotate(-14deg)} }
+    @keyframes noteup2 { 0%{opacity:0; transform:translate(0px,0px) rotate(0deg)} 15%{opacity:.95} 100%{opacity:0; transform:translate(16px,-54px) rotate(14deg)} }
+    .sym { font: 600 16px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8be9fd; opacity: 0;
+           animation: symrise 3s ease-out infinite; }
+    @keyframes symrise { 0%{opacity:0; transform:translate(0px,0px)} 20%{opacity:.9} 100%{opacity:0; transform:translate(8px,-46px)} }
+
+    .leaf { transform-origin: 72px 300px; animation: sway 3.2s ease-in-out infinite alternate; }
+    @keyframes sway { from { transform: rotate(-4deg); } to { transform: rotate(4deg); } }
+    .bub { opacity: 0; animation: bubk 2.6s ease-in infinite; }
+    .bub2 { animation-delay: -1.3s; }
+    @keyframes bubk { 0%{opacity:0; transform:translateY(0px)} 30%{opacity:.85} 100%{opacity:0; transform:translateY(-10px)} }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hello, .name, .sub, .card, .clip, .wave1, .wave2, .dot, .tw, .hl, .cardhl, .breathe, .head,
+      .facegrp, .bangs, .pupil, .blink, .glow, .mn, .ms, .armsWork, .armsStill, .bobL, .bobR, .music, .pulse,
+      .nt, .sym, .leaf, .bub, .braid1 { animation: none; }
+      .k0 { width: 385px; }
+    }
+  </style>
+
+  <rect width="900" height="360" fill="url(#bg)"/>
+
+  <circle class="dot" cx="800" cy="52" r="5" fill="#8be9fd"/>
+  <circle class="dot d2" cx="872" cy="76" r="3.5" fill="#a5b4fc"/>
+  <circle class="dot d3" cx="730" cy="40" r="4" fill="#c4b5fd"/>
+  <circle class="dot d2" cx="620" cy="34" r="3" fill="#8be9fd"/>
+  <circle class="dot" cx="880" cy="32" r="3" fill="#ffffff"/>
+
+  <path class="wave2" fill="#22d3ee" fill-opacity="0.16"
+        d="M0,314 q112.5,-34 225,0 t225,0 t225,0 t225,0 t225,0 t225,0 t225,0 t225,0 V360 H0 Z"/>
+  <path class="wave1" fill="#6366f1" fill-opacity="0.32"
+        d="M0,332 q112.5,-30 225,0 t225,0 t225,0 t225,0 t225,0 t225,0 t225,0 t225,0 V360 H0 Z"/>
+
+  <!-- ================= the coder ================= -->
+  <circle cx="190" cy="190" r="150" fill="url(#halo)"/>
+  <use class="tw" xlink:href="#spark" x="62" y="96" fill="#c4b5fd"/>
+  <use class="tw tw2" xlink:href="#spark" x="332" y="120" fill="#8be9fd"/>
+  <use class="tw tw3" xlink:href="#spark" x="318" y="48" fill="#ffffff"/>
+
+  <!-- chair back -->
+  <rect x="92" y="196" width="196" height="132" rx="34" fill="url(#chairG)"/>
+  <path d="M120,214 C150,204 230,204 260,214" stroke="#3a4d7a" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".7"/>
+
+  <g class="breathe">
+    <!-- neck and black long-sleeve shirt -->
+    <path d="M183,188 L197,188 L199,222 L181,222 Z" fill="#d99f7b"/>
+    <path d="M183,200 Q190,210 197,200 L197,188 L183,188 Z" fill="#a8704f" opacity=".45"/>
+    <path d="M172,217 L208,217 C228,221 244,232 250,250 C256,272 258,300 258,324 L122,324 C122,300 124,272 130,250 C136,232 152,221 172,217 Z" fill="url(#bodyG)"/>
+    <!-- soft shoulder light and arm folds -->
+    <path d="M137,243 C146,232 158,225 171,222 M243,243 C234,232 222,225 209,222" stroke="#5b6170" stroke-width="2.2" stroke-opacity=".4" fill="none" stroke-linecap="round"/>
+    <path d="M151,258 C155,276 155,292 151,308 M229,258 C225,276 225,292 229,308" stroke="#07070b" stroke-width="2" stroke-opacity=".55" fill="none" stroke-linecap="round"/>
+    <path d="M125,290 C126,299 126,307 125,314 M255,290 C254,299 254,307 255,314" stroke="#4b5060" stroke-width="1.6" stroke-opacity=".4" fill="none" stroke-linecap="round"/>
+    <path d="M171,217 Q190,232 209,217 Z" fill="#d99f7b"/>
+    <path d="M168,216.500 Q190,235 212,216.500" stroke="#262631" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <path d="M171,218.500 Q190,234 209,218.500" stroke="#4b5060" stroke-width=".9" stroke-opacity=".6" fill="none"/>
+    <!-- pendant -->
+    <path d="M179,226 Q190,242 201,226" stroke="#fde68a" stroke-width="1.2" fill="none"/>
+    <circle cx="190" cy="238" r="2.6" fill="#fde68a"/>
+
+    <!-- a single braid over her left shoulder -->
+    <g class="braid1">
+      <g fill="url(#hairG)" stroke="#34343f" stroke-width=".9">
+        <ellipse cx="172" cy="196" rx="9.5" ry="8.5" transform="rotate(-24 172 196)"/>
+        <ellipse cx="174" cy="205" rx="9.3" ry="8.5" transform="rotate(24 174 205)"/>
+        <ellipse cx="169" cy="214" rx="9" ry="8.5" transform="rotate(-24 169 214)"/>
+        <ellipse cx="170" cy="223" rx="8.6" ry="8.5" transform="rotate(24 170 223)"/>
+        <ellipse cx="165" cy="232" rx="8.1" ry="8.5" transform="rotate(-24 165 232)"/>
+        <ellipse cx="166" cy="241" rx="7.5" ry="8.5" transform="rotate(24 166 241)"/>
+        <ellipse cx="162" cy="249" rx="6.8" ry="8" transform="rotate(-24 162 249)"/>
+      </g>
+      <path d="M172,190 C175,205 167,225 164,246" stroke="#6a6a78" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".4"/>
+      <rect x="152" y="254" width="17" height="6" rx="3" fill="#3f3f46" stroke="#6b7280" stroke-width=".8"/>
+      <path d="M154,260 C152,266 156,270 160.5,266.5 C165,270 169,266 167,260 Z" fill="url(#hairG)" stroke="#34343f" stroke-width=".8"/>
+    </g>
+
+    <!-- head -->
+    <g transform="translate(0,2) translate(190,205) scale(.8) translate(-190,-205)">
+    <g class="head">
+      <ellipse cx="190" cy="124" rx="49" ry="46" fill="url(#hairG)"/>
+
+      <g class="facegrp">
+        <path d="M156,150 C156,122 172,112 190,112 C208,112 224,122 224,150 C224,176 208,197 190,199 C172,197 156,176 156,150 Z" fill="url(#skinG)"/>
+        <ellipse class="glow" cx="190" cy="172" rx="36" ry="28" fill="#38bdf8" clip-path="url(#faceClip)"/>
+        <ellipse cx="170" cy="168" rx="7" ry="4" fill="#fb7185" opacity=".3"/>
+        <ellipse cx="210" cy="168" rx="7" ry="4" fill="#fb7185" opacity=".3"/>
+
+        <g class="blink">
+          <ellipse cx="177" cy="154" rx="6.8" ry="7.6" fill="#ffffff"/>
+          <ellipse cx="203" cy="154" rx="6.8" ry="7.6" fill="#ffffff"/>
+          <g clip-path="url(#eyeL)"><g class="pupil">
+            <circle cx="177" cy="154" r="4.9" fill="#6b4226"/>
+            <circle cx="177" cy="154" r="2.5" fill="#150b10"/>
+            <circle cx="178.6" cy="152" r="1.5" fill="#ffffff"/>
+          </g></g>
+          <g clip-path="url(#eyeR)"><g class="pupil">
+            <circle cx="203" cy="154" r="4.9" fill="#6b4226"/>
+            <circle cx="203" cy="154" r="2.5" fill="#150b10"/>
+            <circle cx="204.6" cy="152" r="1.5" fill="#ffffff"/>
+          </g></g>
+          <path d="M169.5,151 C172,145.6 182,145.6 184.5,151 M169.5,151 L166.6,148.4" stroke="#1a0f1f" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+          <path d="M195.5,151 C198,145.6 208,145.6 210.5,151 M210.5,151 L213.4,148.4" stroke="#1a0f1f" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+        </g>
+        <path d="M170,140 Q177,135.5 184,139 M196,139 Q203,135.5 210,140" stroke="#1a0f1f" stroke-width="2.2" stroke-linecap="round" fill="none" opacity=".85"/>
+        <path d="M190,163 Q188.4,168 191.6,168.6" stroke="#d58f6a" stroke-width="1.7" stroke-linecap="round" fill="none"/>
+        <path class="mn" d="M184,178 Q190,180.4 196,178" stroke="#c2566b" stroke-width="2.3" stroke-linecap="round" fill="none"/>
+        <path class="ms" d="M182,176 Q190,185.5 198,176" stroke="#c2566b" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      </g>
+
+      <!-- side-swept bangs falling across half of her face -->
+      <g class="bangs">
+        <path d="M214,90 C196,86 166,94 153,120 C149,134 150,150 156,166 C159,150 165,141 177,134 C190,126 206,119 219,111 Z" fill="url(#hairG)"/>
+        <path d="M214,90 C227,92 235,109 233,140 C229,125 225,116 219,111 Z" fill="url(#hairG)"/>
+        <path d="M208,96 C188,96 168,106 159,126" stroke="#6a6a78" stroke-width="3" stroke-linecap="round" fill="none" opacity=".35"/>
+        <path d="M205,104 C192,109 178,118 170,132" stroke="#3f3f4b" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".7"/>
+      </g>
+
+      <!-- headphones -->
+      <path d="M138,142 C130,54 250,54 242,142" stroke="#0b1020" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <path d="M140,138 C134,60 246,60 240,138" stroke="#475569" stroke-width="2" stroke-linecap="round" fill="none" opacity=".8"/>
+      <g>
+        <rect x="124" y="128" width="26" height="50" rx="12" fill="#0b1020"/>
+        <rect x="124" y="128" width="26" height="50" rx="12" fill="none" stroke="#22d3ee" stroke-width="5" opacity=".18"/>
+        <rect x="124" y="128" width="26" height="50" rx="12" fill="none" stroke="#22d3ee" stroke-width="2"/>
+        <circle class="music" cx="137" cy="153" r="6" fill="#22d3ee"/>
+        <rect x="230" y="128" width="26" height="50" rx="12" fill="#0b1020"/>
+        <rect x="230" y="128" width="26" height="50" rx="12" fill="none" stroke="#22d3ee" stroke-width="5" opacity=".18"/>
+        <rect x="230" y="128" width="26" height="50" rx="12" fill="none" stroke="#22d3ee" stroke-width="2"/>
+        <circle class="music" cx="243" cy="153" r="6" fill="#22d3ee"/>
+      </g>
+    </g>
+    </g>
+  </g>
+
+  <!-- arms: typing (bobbing) and resting versions swap while she looks away -->
+  <g class="armsWork">
+    <use class="bobL" xlink:href="#armL"/>
+    <use class="bobR" xlink:href="#armR"/>
+  </g>
+  <g class="armsStill">
+    <use xlink:href="#armL"/>
+    <use xlink:href="#armR"/>
+  </g>
+
+  <!-- laptop (back of the lid faces us) -->
+  <rect x="132" y="268" width="116" height="48" rx="7" fill="url(#lidG)"/>
+  <rect x="132" y="268" width="116" height="5" rx="2.5" fill="#ffffff" opacity=".55"/>
+  <circle class="pulse" cx="190" cy="294" r="13" fill="#7dd3fc"/>
+  <circle cx="190" cy="294" r="6" fill="#f8fafc"/>
+  <g transform="rotate(-10 222 288)">
+    <rect x="212" y="281" width="24" height="16" rx="4" fill="#a78bfa"/>
+    <path d="M221,286 L217.5,289 L221,292 M227,286 L230.5,289 L227,292" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <rect x="125" y="312" width="130" height="4" rx="2" fill="#8795ad"/>
+
+  <!-- desk -->
+  <rect x="40" y="316" width="300" height="13" rx="6.5" fill="url(#deskG)"/>
+  <rect x="58" y="329" width="264" height="5" rx="2.5" fill="#18213f" opacity=".8"/>
+
+  <!-- props: plant, glass of water, notes, code -->
+  <rect x="58" y="298" width="28" height="19" rx="3.5" fill="#c2410c"/>
+  <rect x="55" y="295" width="34" height="6" rx="3" fill="#ea580c"/>
+  <g class="leaf">
+    <path d="M72,297 C60,286 57,272 64,260 C73,270 76,286 72,297 Z" fill="#22c55e"/>
+    <path d="M72,297 C85,289 90,275 83,263 C74,272 69,286 72,297 Z" fill="#16a34a"/>
+    <path d="M72,297 C70,284 71,274 73,266" stroke="#bbf7d0" stroke-width="1.2" fill="none" opacity=".6"/>
+  </g>
+  <path d="M293,288 L320,288 L317.5,316 L295.5,316 Z" fill="#bae6fd" fill-opacity=".22" stroke="#e0f2fe" stroke-opacity=".85" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M294.4,299 L318.6,299 L317.5,316 L295.5,316 Z" fill="#38bdf8" fill-opacity=".6"/>
+  <ellipse cx="306.5" cy="299" rx="12" ry="2.3" fill="#7dd3fc" fill-opacity=".9"/>
+  <path d="M298,292 L299.6,312" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+  <circle class="bub" cx="303" cy="310" r="1.3" fill="#e0f2fe"/>
+  <circle class="bub bub2" cx="311" cy="308" r="1.1" fill="#e0f2fe"/>
+  <g transform="translate(116,96)"><use class="nt" xlink:href="#note" fill="#f9a8d4" stroke="#f9a8d4"/></g>
+  <g transform="translate(266,92)"><use class="nt nt2" xlink:href="#note" fill="#67e8f9" stroke="#67e8f9"/></g>
+  <text class="sym" x="258" y="274">&lt;/&gt;</text>
+
+  <!-- ================= the intro (on her left) ================= -->
+  <text class="hello" x="402" y="100">Hi, I'm</text>
+  <text class="name" x="400" y="154">Mukadus Jawaid</text>
+  <text class="sub" x="402" y="188">A Software Engineer</text>
+  <rect class="hl" x="402" y="196" width="232" height="3" rx="1.5" fill="#8be9fd"/>
+
+  <g class="card">
+    <rect x="400" y="218" width="450" height="70" rx="14" fill="#0a1124" fill-opacity=".78" stroke="#2b3a63" stroke-width="1.2"/>
+    <rect class="cardhl" x="400" y="218" width="450" height="70" rx="14" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="418" cy="234" r="4" fill="#f87171"/>
+    <circle cx="432" cy="234" r="4" fill="#fbbf24"/>
+    <circle cx="446" cy="234" r="4" fill="#34d399"/>
+    <text class="prompt" x="418" y="268">&gt;</text>
+    <text class="type" x="440" y="268" clip-path="url(#c0)">Frontend Engineer · React &amp; Next.js</text>
+    <text class="type" x="440" y="268" clip-path="url(#c1)">Building AI &amp; SaaS products</text>
+    <text class="type" x="440" y="268" clip-path="url(#c2)">Learning Node.js &amp; backend</text>
+    <text class="type" x="440" y="268" clip-path="url(#c3)">TypeScript · Tailwind · UI/UX</text>
+  </g>
+</svg>
