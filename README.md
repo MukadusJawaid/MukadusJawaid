@@ -2,6 +2,8 @@
   <img src="header.svg" alt="Mukadus Jawaid · Software Engineer" width="100%"/>
 </p>
 
+<h1 align="center">Hi, I'm Mukadus Jawaid 👋</h1>
+
 <p align="center">
   <b>Software Engineer · Frontend Engineer</b><br/>
   Building scalable, user-focused web apps with React, Next.js and TypeScript.<br/>
