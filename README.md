@@ -70,7 +70,7 @@
 | **[Emojipedia](https://github.com/MukadusJawaid/Emojipedia)** | Emoji directory with descriptions | React, JavaScript |
 | **Caropedia · Notes Keeper · Melad Zone · Tutor Elli** | Live web projects, see my portfolio for demos | React, Next.js |
 
-👉 See everything live at **[my portfolio](https://mukadusjawaid.vercel.app)**.
+👉 See everything live at **[my portfolio](https://mukadusjawaid.vercel.app/)**.
 
 ## 🤝 Let's connect
 
